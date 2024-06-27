@@ -37,6 +37,12 @@ describe("Conta", () => {
         const conta: Conta = criarContaSaldo199();
         expect( () => {conta.sacar(200);}).toThrow("Valor precisa ser menor ou igual ao Saldo.");
     })
+
+    test("sacar todo o saldo", async () => {
+        const conta: Conta = criarConta();
+        conta.sacar(5000.0);
+        expect(conta.saldo).toBe(0);
+      });
 });
 
 function criarConta(): Conta {
