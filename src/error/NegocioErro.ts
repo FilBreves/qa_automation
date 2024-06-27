@@ -1,4 +1,3 @@
-import { Exception } from "handlebars";
 
 export class NegocioErro extends Error {
 
