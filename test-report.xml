@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
+  <file path="C:\Users\lipib\Documents\Pós\Automacao testes\AulaPratica\__tests__\model\Recibo.test.ts">
+    <testCase name="Recibo criar com sucesso" duration="12"/>
+    <testCase name="Recibo criar recibos diferentes" duration="1"/>
+  </file>
+  <file path="C:\Users\lipib\Documents\Pós\Automacao testes\AulaPratica\__tests__\model\Conta.test.ts">
+    <testCase name="Conta sacar com sucesso" duration="11"/>
+    <testCase name="Conta depositar com sucesso" duration="1"/>
+    <testCase name="Conta validar saque zerado" duration="14"/>
+    <testCase name="Conta validar deposito zerado" duration="3"/>
+    <testCase name="Conta validar saque negativo" duration="1"/>
+    <testCase name="Conta validar deposito negativo" duration="1"/>
+    <testCase name="Conta Sacar valor acima do saldo" duration="1"/>
+    <testCase name="Conta sacar todo o saldo" duration="1"/>
+  </file>
   <file path="C:\Users\lipib\Documents\Pós\Automacao testes\AulaPratica\__tests__\model\TransferenciaValor.test.ts">
     <testCase name="Transferência Valor transferencia de valor entre contas com sucesso" duration="12"/>
   </file>
   <file path="C:\Users\lipib\Documents\Pós\Automacao testes\AulaPratica\__tests__\model\NumeroConta.test.ts">
-    <testCase name="Número Conta conta com seis dígitos" duration="13"/>
-    <testCase name="Número Conta conta com cinco dígitos" duration="34"/>
-    <testCase name="Número Conta conta com sete dígitos" duration="2"/>
+    <testCase name="Número Conta conta com seis dígitos" duration="11"/>
+    <testCase name="Número Conta conta com cinco dígitos" duration="13"/>
+    <testCase name="Número Conta conta com sete dígitos" duration="1"/>
     <testCase name="Número Conta conta com valor que não sejam digitos" duration="2"/>
   </file>
   <file path="C:\Users\lipib\Documents\Pós\Automacao testes\AulaPratica\__tests__\application\TransferenciaServicoMock.test.ts">
-    <testCase name="Transferencia serviço mock transferir com sucesso" duration="19"/>
-    <testCase name="Transferencia serviço mock conta de origem não encontrada" duration="3"/>
-    <testCase name="Transferencia serviço mock conta de destino não encontrada" duration="2"/>
-  </file>
-  <file path="C:\Users\lipib\Documents\Pós\Automacao testes\AulaPratica\__tests__\model\Conta.test.ts">
-    <testCase name="Conta sacar com sucesso" duration="14"/>
-    <testCase name="Conta depositar com sucesso" duration="1"/>
-    <testCase name="Conta validar saque zerado" duration="10"/>
-    <testCase name="Conta validar deposito zerado" duration="1"/>
-    <testCase name="Conta validar saque negativo" duration="1"/>
-    <testCase name="Conta validar deposito negativo" duration="2"/>
-    <testCase name="Conta Sacar valor acima do saldo" duration="1"/>
-    <testCase name="Conta sacar todo o saldo" duration="0"/>
+    <testCase name="Transferencia serviço mock transferir com sucesso" duration="8"/>
+    <testCase name="Transferencia serviço mock conta de origem não encontrada" duration="1"/>
+    <testCase name="Transferencia serviço mock conta de destino não encontrada" duration="0"/>
   </file>
   <file path="C:\Users\lipib\Documents\Pós\Automacao testes\AulaPratica\__tests__\application\TransferenciaServico.test.ts">
-    <testCase name="Transferência Serviço transferir com sucesso" duration="7"/>
-    <testCase name="Transferência Serviço conta de origem não encontrada" duration="1"/>
-    <testCase name="Transferência Serviço conta de destino não encontrada" duration="0"/>
-  </file>
-  <file path="C:\Users\lipib\Documents\Pós\Automacao testes\AulaPratica\__tests__\model\Recibo.test.ts">
-    <testCase name="Recibo criar com sucesso" duration="6"/>
-    <testCase name="Recibo criar recibos diferentes" duration="0"/>
+    <testCase name="Transferência Serviço transferir com sucesso" duration="6"/>
+    <testCase name="Transferência Serviço conta de origem não encontrada" duration="0"/>
+    <testCase name="Transferência Serviço conta de destino não encontrada" duration="1"/>
   </file>
 </testExecutions>
